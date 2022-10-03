@@ -70,6 +70,7 @@ body{
     border: 3px solid black;
     /* height: 650px; */
     width: 100%;
+    padding: 30px;
     /* font-weight: bolder; */
     margin: 0 auto;
     display: flex;
@@ -80,42 +81,55 @@ body{
     justify-content: space-evenly;
 }
 .pricing-content-firstdiv{
-    font-weight: bolder ;
+    font-weight: bolder;
     border-right: 3px solid black ;
 }
 .pricing-content-firstdiv h5{
-    padding: 20px 0;
-    margin-top: 15px;
-    /* font-weight: bolder; */
+    padding: 10px 0;
     color: black;
 
 }
+.pricing-content-firstdiv h6{
+    margin-left: 10px;
+}
 .pricing-content-firstdiv h4{
-    padding:30px;
+    padding:20px;
     font-weight: bolder;
 }
+
 .pricing-content-firstdiv ul li{
     list-style: none;
     padding: 5px 20px;
-    /* font-weight: bolder; */
+    
 }
 .pricing-content-firstdiv li span{
     padding-right: 10px;
+    
 }
 .pricing-content-firstdiv button{
     padding: 10px 25px;
-    /* margin-bottom:  40px auto; */
-    margin: 35px auto;
+    align-items: center;
+    margin: 20px 10px;
     background: var(--black-color);
     color: var(--white-color);
 }
 .pricing-content-fourthdiv h5{
-    padding: 20px 0;
+    padding: 10px 0;
+    margin-left: 7px;
+
 
 }
 
+.pricing-content-firstdiv p{
+    margin-left:10px;
+}
+
 .pricing-content-fourthdiv h4{
-    padding: 30px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.pricing-content-fourthdiv h6{
+    margin-left: 10px;
 }
 .pricing-content-fourthdiv{
     font-weight: bolder;
@@ -124,12 +138,15 @@ body{
     list-style: none;
     padding: 5px 20px;
 }
+.pricing-content-fourthdiv p{
+    margin-left: 10px;
+}
 .pricing-content-fourthdiv li span{
     padding-right:10px;
 }
 .pricing-content-fourthdiv button{
     padding:10px 25px;
-    margin:10px auto;
+    margin: 10px 10px;
     background:var(--black-color);
     color:var(--white-color);
 }
@@ -144,13 +161,16 @@ body{
 }
 
 .pricing-content-div h5{
-    padding: 20px 0;
+    padding: 10px 0;
     
 
 }
+.pricing-content-div h6{
+    margin-left: 10px;
+}
 .pricing-content-div h4{
-    padding: 30px;
-    font-weight: bold;
+    padding: 10px;
+    font-weight: bolder;
 }
 .pricing-content-div ul li{
     list-style: none;
@@ -164,7 +184,7 @@ body{
 
 .pricing-content-div button{
     padding: 10px 25px;
-    margin: 10px auto;
+    margin: 10px 10px;
     background: var(--black-color);
     color: var(--white-color);
     
@@ -174,7 +194,7 @@ body{
     align-items: center;
     font-weight:10px;
     font-size: 23px;
-    margin:0 auto;
+    margin-left: 10px;
 
 }
 
