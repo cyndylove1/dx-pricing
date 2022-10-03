@@ -30,19 +30,21 @@ body{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .pricingcard-text p{
     /* border: 3px solid blue; */
-    padding: 25px 0;
+    padding: 10px 0;
     font-weight: bolder;
+    /* margin: 10px; */
     font-size: 30px;
 }
 
 .pricing-holder button{
     padding: 5px 8px;
     width: 25%;
+    margin: 0 10px;
     border-radius: 6px;
     font-weight: bold;
     color: var(--black-color);
@@ -55,7 +57,7 @@ body{
     border: none;
     font-weight: bold;
     color: var(--black-color);
-    margin-right: 10px;
+    margin-right: 20px;
     width: 50%;
     /* border: 2px var(--text-color); */
     color: var(--black-color);
