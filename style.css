@@ -1,5 +1,5 @@
 
-
+/*====== major fixes starts here*/
 *{ 
     margin: 0;
     padding: 0;
@@ -11,10 +11,10 @@ body{
     font-family: 'lato',sans-serif;
 
 }
+/*====== major fixes ends here*/
 
 
-
-
+/* first section starts here*/
 
 
 .pricingcard-container{
@@ -70,6 +70,10 @@ body{
     border-radius: 10px;
     font-weight: bold;
 }
+/* first section starts here*/
+
+
+/* second section starts here*/
 .pricing-secondiv{
     /* border: 3px solid blue; */
     /* height: 600px; */
@@ -203,8 +207,9 @@ body{
     align-items: center;
     font-weight:10px;
     font-size: 23px;
-    margin-left: 10px;
+    /* margin-left: 5px; */
 
 }
+/* second section ends here*/
 
    
