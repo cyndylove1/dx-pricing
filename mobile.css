@@ -7,7 +7,22 @@
     
         
         
-    }  
+    } 
+    .pricing-holder{
+        margin-left:20px;
+        width:80%;
+    }     
+        
+
+
+   
+    .pricing-holder .btn-1{
+        width:50%;
+    }
+    .pricing-holder .btn-2{
+        width:70%;
+    }
+
     .pricing-content-firstdiv{
         flex-direction: column;
         text-align: left;
